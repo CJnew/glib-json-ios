@@ -26,6 +26,23 @@
 		F564D98E2266BEDE00A5849B /* json-debug.c in Sources */ = {isa = PBXBuildFile; fileRef = F564D9792266BEDE00A5849B /* json-debug.c */; };
 		F564D98F2266BEDE00A5849B /* json-glib-format.c in Sources */ = {isa = PBXBuildFile; fileRef = F564D97A2266BEDE00A5849B /* json-glib-format.c */; };
 		F564D9902266BEDE00A5849B /* json-array.c in Sources */ = {isa = PBXBuildFile; fileRef = F564D97B2266BEDE00A5849B /* json-array.c */; };
+		F564D99B2266CBE900A5849B /* json-builder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F564D95E2266BEDC00A5849B /* json-builder.h */; };
+		F564D99C2266CBE900A5849B /* json-debug.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F564D96A2266BEDC00A5849B /* json-debug.h */; };
+		F564D99D2266CBE900A5849B /* json-enum-types.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F564D9602266BEDC00A5849B /* json-enum-types.h */; };
+		F564D99E2266CBE900A5849B /* json-generator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F564D9702266BEDD00A5849B /* json-generator.h */; };
+		F564D99F2266CBE900A5849B /* json-glib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F564D9682266BEDC00A5849B /* json-glib.h */; };
+		F564D9A02266CBE900A5849B /* json-gobject-private.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F564D9692266BEDC00A5849B /* json-gobject-private.h */; };
+		F564D9A12266CBE900A5849B /* json-gobject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F564D96B2266BEDD00A5849B /* json-gobject.h */; };
+		F564D9A22266CBE900A5849B /* json-gvariant.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F564D9632266BEDC00A5849B /* json-gvariant.h */; };
+		F564D9A32266CBE900A5849B /* json-parser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F564D95C2266BEDC00A5849B /* json-parser.h */; };
+		F564D9A42266CBE900A5849B /* json-path.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F564D97D2266BEDE00A5849B /* json-path.h */; };
+		F564D9A52266CBE900A5849B /* json-reader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F564D9722266BEDD00A5849B /* json-reader.h */; };
+		F564D9A62266CBE900A5849B /* json-scanner.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F564D97C2266BEDE00A5849B /* json-scanner.h */; };
+		F564D9A72266CBE900A5849B /* json-types-private.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F564D9742266BEDD00A5849B /* json-types-private.h */; };
+		F564D9A82266CBE900A5849B /* json-types.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F564D95B2266BEDC00A5849B /* json-types.h */; };
+		F564D9A92266CBE900A5849B /* json-utils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F564D9752266BEDD00A5849B /* json-utils.h */; };
+		F564D9AA2266CBE900A5849B /* json-version-macros.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F564D9772266BEDD00A5849B /* json-version-macros.h */; };
+		F564D9AB2266CBE900A5849B /* json-version.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F564D96D2266BEDD00A5849B /* json-version.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +52,23 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				F564D99B2266CBE900A5849B /* json-builder.h in CopyFiles */,
+				F564D99C2266CBE900A5849B /* json-debug.h in CopyFiles */,
+				F564D99D2266CBE900A5849B /* json-enum-types.h in CopyFiles */,
+				F564D99E2266CBE900A5849B /* json-generator.h in CopyFiles */,
+				F564D99F2266CBE900A5849B /* json-glib.h in CopyFiles */,
+				F564D9A02266CBE900A5849B /* json-gobject-private.h in CopyFiles */,
+				F564D9A12266CBE900A5849B /* json-gobject.h in CopyFiles */,
+				F564D9A22266CBE900A5849B /* json-gvariant.h in CopyFiles */,
+				F564D9A32266CBE900A5849B /* json-parser.h in CopyFiles */,
+				F564D9A42266CBE900A5849B /* json-path.h in CopyFiles */,
+				F564D9A52266CBE900A5849B /* json-reader.h in CopyFiles */,
+				F564D9A62266CBE900A5849B /* json-scanner.h in CopyFiles */,
+				F564D9A72266CBE900A5849B /* json-types-private.h in CopyFiles */,
+				F564D9A82266CBE900A5849B /* json-types.h in CopyFiles */,
+				F564D9A92266CBE900A5849B /* json-utils.h in CopyFiles */,
+				F564D9AA2266CBE900A5849B /* json-version-macros.h in CopyFiles */,
+				F564D9AB2266CBE900A5849B /* json-version.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
